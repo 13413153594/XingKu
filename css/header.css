@@ -1,0 +1,55 @@
+body {
+    font-size: 36px;
+    font-family: 'pingfang sc-regular';
+}
+/* 文本框字体设置 */
+::-webkit-input-placeholder {
+    color: #999;
+    font-size: 26px;
+    letter-spacing:4px;
+}
+/*header 开头*/
+#nav-header {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+}
+
+#nav-header .header-content {
+    padding: 0px 24px;
+    background-color: #b924ff;
+    height: 88px;
+    line-height: 88px;
+}
+
+#nav-header .header-content .prev {
+    padding: 26px 20px 0 0px;
+}
+
+#nav-header .header-content .prev a {
+    display: block;
+    width: 29px;
+    height: 40px;
+    color: white;;
+}
+#nav-header .header-content .font span {
+    width: 29px;
+    font-size: 36px;
+}
+
+/* 按钮 */
+.Container .btn {
+    text-align: center; 
+    font-size: 35px; 
+    color: white;
+    background-color: #b924ff; 
+    box-shadow: 0px 0px 30px #b924ff;
+    cursor: pointer; 
+    display: block; 
+    margin: 66px auto;
+    width: 372px; 
+    height: 70px;
+    font-family: 'pingfang sc-regular'; 
+}
+

@@ -1,0 +1,11 @@
+.font {
+	text-align: center;
+}
+.Container {
+    padding-top: 308px;
+}
+.Container-content img {
+	display: block;
+    margin: 0px auto;
+    margin-bottom: 282px;
+}

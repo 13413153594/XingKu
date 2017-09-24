@@ -1,0 +1,70 @@
+/* 分享 */
+.shareBg {
+	position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 1348px;
+    background: rgba(0,0,0,0.6);
+    overflow: hidden;
+    z-index: 12;
+    display: none;
+}
+.shareBgShow {
+	display: block;
+}
+.shareAPP {
+	width: 90%;
+	position: fixed;
+    bottom: 14px;
+    margin-left: 5%;
+    z-index: 12;
+    display: none;
+}
+.shareAPPShow {
+	display: block;
+}
+.shareType {
+	width: 100%;
+	background: #fff;
+	height: 260px;
+	border-radius: 6px;
+}
+.shareType p {
+	width: 90%;
+	margin-left: 5%;
+	height: 68px;
+	line-height: 68px;
+	text-align: center;
+	font-size: 36px;
+	color: #666;
+	border-bottom: 1px solid #e5e5e5;
+}
+.shareTypeList {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.shareTypeList li {
+	width: 24.5%;
+	text-align: center;
+	float: left;
+}
+.shareTypeList li img {
+	margin: 0px auto;
+}
+.shareTypeList li span {
+	font-size: 24px;
+	color: #666;
+}
+.cancel {
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background: #fff;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 36px;
+	color: #666;
+	border-radius: 6px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    	<link rel="stylesheet" href="css/login.css">
+    	<link rel="stylesheet" href="css/header.css">
+        <script src="js/jquery-1.11.1.min.js"></script>
+   		<script src="js/style.js"></script>
+        <script src="js/login.js"></script>
+    </head>
+    <body>
+    	<!--header开头 登录-->
+		<div id="nav-header">
+		  <div class="header-content">
+		      <div class="font" style="text-align:center;"><span>登录</span></div>
+		  </div>
+		</div>  
+		<!--登录内容-->
+		<div class="Container loginContainer">
+		    <div class="Container-content">
+		    	<!-- 公司logo -->
+		    	<div class="logo"></div>
+		        <form action="#" method="post">
+			        <div class="phone">
+			           <span class="font-icon"><img src="images/login/2x/home_user@2x.png" alt=""></span><input type="text" placeholder="请输入手机号" id="number">
+			        </div>
+		            <div class="phone password">
+		                <span class="font-icon"><img src="images/login/2x/home_Password@2x.png" alt=""></span><input type="password" placeholder="请输入密码" id="password">
+		            </div>
+		        <p class="tip">
+		        	<a href="javascript:void(0)" class="zcAccount">注册账号</a>
+		        	<em style="font-size:18px;color:#999;">|</em>
+		        	<a href="password.html">忘记密码</a>
+		        </p>
+
+		    	<a href="main.html"><input type="button" class="btn loginBtn" id="loginBtn" value="登录"></a>
+		    </form>
+		</div>
+
+		    <!-- 第三方登录 -->
+		    <div class="loginType">
+				<div class="Third">
+					<span class="line1"></span>
+					<span class="des">第三方登录</span>
+					<span class="line2"></span>
+				</div>
+				<ul class="loginApp">
+					<li><img src="images/login/2x/home_icon_weibo@2x.png" alt=""></li>
+					<li><img src="images/login/2x/home_icon_weixin@2x.png" alt=""></li>
+					<li><img src="images/login/2x/home_icon_qq@2x.png" alt=""></li>
+				</ul>
+			</div>
+			
+			<p class="footer">登录即代表同意<a href="clause.html">《星酷云活动服务与隐私条款》</a></p>
+		</div> 
+
+		<!-- 注册账号 -->
+		<div class="zc"></div> 
+		<ul class="zcList">
+			<li class="zcType">选择注册方式</li>
+			<li class="zcPersonal"><a href="zcPersonal.html">个人注册</a></li>
+			<li class="zcEnterprise"><a href="zcCompany.html">企业注册</a></li>
+		</ul>
+
+		<!-- 表单验证 -->
+		<div class="userNum" id="userNum">
+			<span>请输入手机号</span>
+		</div>
+		<div class="userPass" id="userPass">
+			<span>请输入密码</span>
+		</div>
+		<div class="less">
+            <span>密码长度不能少于六个字符</span>
+        </div>
+        <div class="exceed">
+            <span>密码长度不能超过十六个字符</span>
+        </div>
+	</body>
+</html>

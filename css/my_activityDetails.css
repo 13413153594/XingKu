@@ -1,0 +1,230 @@
+.banner {
+	padding-top: 88px;
+}
+.banner img {
+	width: 100%;
+	height: 394px;
+}
+.details {
+	margin-bottom: 0px;
+}
+.registrationUser,.waitList {
+	width: 100%;
+	margin-left: 0px;
+}
+.waitList {
+	display: none;
+}
+.waitListShow {
+	display: block;
+}
+.registrationUserList {
+	padding: 0px 24px;
+}
+.registrationUserList li {
+	width: 100%;
+	height: 130px;
+	line-height: 130px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.registrationUserList li .touxiang {
+	width: 103px;
+    height: 103px;
+    border-radius: 50%;
+    background: pink;
+    margin-right: 10px;
+    float: left;
+    margin-top: 12px;
+}
+.registrationUserList li span {
+	color: #666;
+	font-size: 34px;
+	margin-right: 20px;
+}
+
+
+#status {
+	padding: 24px 90px;
+}
+#status span {
+	width: 30%;
+    margin-right: 70px;
+}
+#status .des {
+	padding-bottom: 16px;
+    border-bottom: 8px solid #b924ff;
+}
+#status span:nth-of-type(3) {
+	margin-right: 0px;
+}
+#waitList .UserMsg span {
+	margin-right: 0px;
+}
+.name {
+	margin-left: 5px;
+}
+#waitList .selectBtn {
+	margin-right: 20px;
+	margin-top: -3px;
+}
+#waitList .selectBtn span {
+	margin-right: 0px;
+}
+#waitList .selectBtn span {
+	color: #fff;
+	font-size: 26px;
+    padding: 0px 12px;
+}
+.eliminate,.agree,.recovery {
+	background: #b924ff;
+	position: relative;
+    left: 24px;
+}
+.del {
+	background: #999999;
+	position: relative;
+    top: 0px;
+}
+.recovery {
+	background: #fa1d4d;
+}
+
+#releaseShare {
+	height: auto;
+    width: 294px;
+}
+#releaseShare .shareList {
+	padding: 0px 20px;
+}
+#releaseShare .shareList li {
+	text-align: left;
+}
+.shareList a #edit {
+	color: #fff;
+}
+/* 模态框 */
+.eliminateBg,.clearBg,.delBg,.deleteBg,.recoverBg,.agreeBg {
+	position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 1348px;
+    background: rgba(0,0,0,0.6);
+    overflow: hidden;
+    z-index: 11;
+    display: none;
+}
+.eliminateBgShow,.clearBgShow,.delBgShow,.deleteBgShow,.recoverBgShow,.agreeBgShow {
+	display: block;
+}
+.eliminateList,.clearList,.delList,.deleteList,.recoverList,.agreeList {
+	position: fixed;
+    font-size: 30px;
+    width: 100%;
+    top: 50%;
+    margin-top: -129px;
+    background: #fff;
+    padding: 0px 24px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 11;
+    display: none;
+}
+.eliminateListShow,.clearListShow,.delListShow,.deleteListShow,.recoverListShow,.agreeListShow {
+	display: block;
+}
+.eliminateList li,.clearList li,.delList li,.deleteListShow li,.recoverListShow li,.agreeListShow li {
+	padding: 0px 24px;
+	height: 86px;
+	line-height: 86px;
+	text-align: center;
+	color: #666;
+	font-size: 36px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.eliminateList .notes {
+	height: 80px;
+	font-size: 24px;
+	border-bottom: none;
+	text-align: left;
+	line-height: 80px;
+}
+.clearList .notes {
+	height: 80px;
+	font-size: 24px;
+	border-bottom: none;
+	text-align: left;
+	line-height: 33px;
+	padding-top: 8px;
+}
+/* 分享 */
+/* .shareBg {
+	position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 1348px;
+    background: rgba(0,0,0,0.6);
+    overflow: hidden;
+    z-index: 1;
+    display: none;
+}
+.shareBgShow {
+	display: block;
+}
+.shareAPP {
+	width: 90%;
+	position: fixed;
+    bottom: 14px;
+    margin-left: 5%;
+    z-index: 1;
+    display: none;
+}
+.shareAPPShow {
+	display: block;
+}
+.shareType {
+	width: 100%;
+	background: #fff;
+	height: 260px;
+	border-radius: 6px;
+}
+.shareType p {
+	width: 90%;
+	margin-left: 5%;
+	height: 68px;
+	line-height: 68px;
+	text-align: center;
+	font-size: 36px;
+	color: #666;
+	border-bottom: 1px solid #e5e5e5;
+}
+.shareTypeList {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.shareTypeList li {
+	width: 24.5%;
+	text-align: center;
+	float: left;
+}
+.shareTypeList li img {
+	margin: 0px auto;
+}
+.shareTypeList li span {
+	font-size: 24px;
+	color: #666;
+}
+.cancel {
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background: #fff;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 36px;
+	color: #666;
+	border-radius: 6px;
+} */
+
+

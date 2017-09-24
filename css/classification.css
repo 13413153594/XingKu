@@ -1,0 +1,47 @@
+body {
+	font-family: 'pingfang sc-regular';
+} 
+
+.Container {
+	width: 100%;
+	padding-top: 88px;
+}
+.Container-content {
+	width: 100%;
+	margin-bottom: 98px;
+}
+.nav {
+	width: 90%;
+    margin: 0px auto;
+    height: 80px;
+    line-height: 75px;
+    overflow: hidden;
+    position: relative;
+}
+.allActi {
+	width: 1480px;
+    position: relative;
+}
+.allActi li {
+	float: left;
+	font-size: 32px;
+	color: #747474;
+	margin-right: 30px;
+}
+.current {
+	border-bottom: 6px solid #b924ff;
+}
+
+.all {
+	margin-top: 22px;
+}
+.adTitle p {
+	margin-left: 0px;
+	color: #333;
+}
+.adsBanner li {
+	border-bottom: none;
+}
+.adRight {
+	border-bottom: 1px solid #ccc;
+}

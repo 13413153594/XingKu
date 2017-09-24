@@ -1,0 +1,33 @@
+body {
+    font-family: 'pingfang sc-regular';
+}
+.Container {
+	width: 100%;
+	padding-top: 88px;
+}
+.Container-content {
+	padding: 0px 24px;
+}
+.Service_agreement {
+	padding: 10px 24px;
+	border-bottom: 1px solid #e5e5e5; 
+}
+.Service_agreement span {
+	color: #666;
+	font-size: 34px;
+}
+.Service_agreement em {
+	display: inline-block;
+    width: 12px;
+    height: 40px;
+    background: #b924ff;
+    position: relative;
+    top: 7px;
+}
+.txt {
+	width: 100%;
+}
+.txt img {
+	width: 100%;
+	margin-top: 24px;
+}

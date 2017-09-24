@@ -1,0 +1,269 @@
+/* 顶部 */
+ body {
+    font-family: 'pingfang sc-regular';
+} 
+::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'pingfang sc-regular';
+}
+.header {
+    width: 100%;
+    height: 500px;
+    background-size: 100% 500px;
+}
+.Banner img {
+    height: 500px;
+}
+/* 轮播快 */
+.jd-Banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;;
+}
+
+ .jd-Banner ul {
+    width: 1000%;
+}
+
+ .jd-Banner ul li {
+    float: left;
+    width: 10%;
+}
+
+ .jd-Banner .swiper-pagination {
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    text-align: center
+}
+
+ .jd-Banner .swiper-pagination span {
+    width: 40px;
+    height: 4px;
+    display: inline-block;
+    background: rgba(225,225,225,1.6);
+    border-radius: 20%;
+}
+
+.header-content {
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    margin-left: -304px;
+    overflow: hidden;
+    z-index: 1;
+}
+.top {
+    overflow: hidden;
+    width: 608px;
+    margin: 0px auto;
+}
+.location,.search,.share {
+    float: left;
+}
+.search {
+    border: 1px solid #cccccc;
+    width: 426px;
+    padding-left: 36px;
+    overflow: hidden;
+    height: 50px;
+    border-radius: 28px;
+    margin-left: 28px;
+    margin-top: 4px;
+    position: relative;
+    background: rgba(225,225,225,0.2);
+    z-index: 1;
+}
+.search .icon-sousuo_sousuo {
+    position: absolute;
+    top: 4px;
+    right: 26px;
+    font-size: 28px;
+}
+.searchInput {
+    width: 270px;
+    height: 42px;
+    margin-top: 2px;
+    font-size: 30px;
+    color: #fff;
+    background: rgba(225,225,225,0);
+}
+.location img {
+    float: left;
+    position: relative;
+    top: 12px;
+}
+.location span {
+    width: 48px;
+    height: 36px;
+    overflow: hidden;
+    float: left;
+    margin-left: 10px;
+    font-size: 24px;
+    margin-top: 8px;
+}
+.share {
+    margin-left: 34px;
+    margin-top: 12px;
+}
+.entertainment {
+    width: 100%;
+}
+.entertainmentType {
+    width: 64%;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.entertainmentType a {
+    display: inline-block;
+    font-size: 26px;
+    text-align: center;
+    line-height: 40px;
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    margin-right: 16px;
+}
+
+/* 活动导航栏 */
+.nav {
+    width: 100%;
+    height: 86px;
+    line-height: 88px;
+    font-size: 35px;
+}
+.nav .activity {
+    overflow: hidden;
+    width: 80%;
+    margin: 0px auto;
+}
+.nav em {
+    font-size: 16px;
+    position: relative;
+    top: -6px;
+    padding: 0px 4px;
+    font-weight: bold;
+}
+.hotActi {
+    float: left;
+    color: #9d9d9d;
+    font-size: 36px;
+    position: relative;
+}
+
+.newActi {
+    float: right;
+    position: relative;
+}
+.hotActi span {
+    margin-left: 20px;
+    margin-top: 26px;
+}
+
+.bar {
+    width: 100%;
+    height: 20px;
+    background: #fafafa;
+}
+
+/* 选择城市 */
+.chengshi {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+.chengshiShow {
+    display: block;
+}
+.select {
+    width: 100%;
+    height: 652px;
+    position: fixed;
+    top: 0px;
+    background: #fff;
+    z-index: 10;
+    overflow: hidden;
+    display: none;
+}
+.selectShow {
+    display: block;
+}
+/* 省 */
+.selectProvince {
+    width: 30%;
+    height: 652px;
+    background: #f5f5f5;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.selectProvinceList {
+    width: 100%;
+    position: relative;
+}
+.selectProvinceList li {
+    height: 84px;
+    line-height: 84px;
+    font-size: 26px;
+    color: #333;
+    padding-left: 38px;
+}
+.selectProvinceList .des {
+    background: #fff;
+    color: #b924ff;
+}
+/* 市 */
+.selectCity {
+    width: 70%;
+    height: 652px;
+    background: #fff;
+    float: left;
+}
+.selectCityList {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.selectCityListShow {
+    display: block;
+}
+.selectCityList li {
+    height: 84px;
+    line-height: 84px;
+    font-size: 26px;
+    color: #333;
+    padding-left: 38px;
+}
+.selectCityList .check {
+    font-size: 50px;
+    color: #b924ff;
+    float: right;
+    margin-right: 12px;
+    display: none;
+}
+.selectCityList .checkShow {
+    display: block;
+}
+.lastSelectVal {
+    float: left;
+}
+#selectListVal {
+    width: 30%;
+    font-size: 26px;
+    color: #333;
+    height: 84px;
+    line-height: 84px;
+    padding-left: 38px;
+    background: #f5f5f5;
+}
+
+div#wrapper1 {
+    position: relative;
+    top: -84px;
+}

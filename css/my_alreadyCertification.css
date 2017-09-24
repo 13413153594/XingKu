@@ -1,0 +1,104 @@
+ body {
+	font-family: 'pingfang sc-regular';
+}
+::-webkit-input-placeholder {
+    font-family: 'pingfang sc-regular';
+    font-size: 26px !important;
+    color: #bdbdbd !important;
+    letter-spacing: 0px !important;
+}
+
+.Container {
+	width: 100%;
+	padding-top: 88px;
+}
+.Container-content {
+	padding: 0px 24px;
+}
+.certificate {
+	width: 100%;
+	height: 450px;
+	margin-top: 40px;
+	background: #51c4fc;
+	text-align: center;
+	overflow: hidden;
+}
+.certificate img {
+    margin: 0px auto;
+    margin-top: 102px;
+}
+.txt {
+	font-size: 36px;
+	color: #fff;
+}
+
+.msg {
+	width: 100%;
+	margin-top: 48px;
+}
+.msgList {
+	width: 100%;
+}
+.msgList li {
+	width: 100%;
+	height: 96px;
+	line-height: 96px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.msgList li img {
+	display: inline-block;
+	margin-right: 12px;
+}
+.msgList li span {
+	font-size: 30px;
+	color: #666;
+}
+.msgList li em {
+	font-size: 26px;
+	color: #ccc;
+}
+#IDmsg {
+	border-bottom: none;
+}
+/* 选择认证方式 */
+.certificateType {
+	overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;
+}
+.certificateTypeShow {
+	display: block;
+}
+.certificateTypeList {
+	background: #fff;
+    padding: 0px 24px;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    background: #fff;
+    z-index: 1;
+    display: none;
+}
+.certificateTypeListShow {
+	display: block;
+}
+.certificateTypeList a li {
+	color: #666;
+}
+.certificateTypeList li {
+	height: 86px;
+	line-height: 86px;
+    border-top: 1px solid #ccc;
+}
+.certificateTypeList .select {
+	height: 72px;
+	line-height: 72px;
+    color: #ccc;
+}

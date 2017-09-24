@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    	<link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/header.css">
+        <script src="js/jquery-1.11.1.min.js"></script>
+    	<script src="js/style.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/signature.js"></script>
+    </head>
+    <body>
+    	<!--header个性签名-->
+		<div id="nav-header">
+		  <div class="header-content">
+		      <div class="prev fl"><a href="personalInfo.html"><img src="images/zcPersonal/2x/return@2x.png" alt=""></a></div>
+		      <div class="font fl" ><span>个性签名</span></div>
+		      <div class="font fr" ><a href="personalInfo.html" class="save" id="save">保存</a></div>
+		  </div>
+		</div>
+		<!--内容-->
+        <div class="Container nameContainer">
+            <div class="Container-content">
+            	<div class="insertName">
+                    <textarea name="" class="nameText" id="txt" cols="30"  onblur="if(this.innerHTML==''){this.innerHTML='不要超过30个字！';this.style.color='ccc';this.style.fontSize='30px';}" style="COLOR: #ccc;font-size:30px;" onfocus="if(this.innerHTML=='不要超过30个字！'){this.innerHTML='';this.style.color='#ccc';this.style.fontSize='30px';}">不要超过30个字！</textarea>
+            	</div>
+            </div>
+        </div>
+    </body>
+</html>

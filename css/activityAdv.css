@@ -1,0 +1,92 @@
+body {
+    font-family: 'pingfang sc-regular';
+}
+/* 活动广告 */
+.advertisement {
+	width: 100%;
+	margin-bottom: 116px;
+}
+.yincang {
+	display: none;
+}
+.advertisementShow {
+	display: block;
+}
+.adsBanner {
+	padding: 0px 24px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.adsBanner li {
+	padding-top: 24px;
+	overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.adLeft {
+	width: 43%;
+	height: 220px;
+	float: left;
+}
+.adLeft img {
+	width: 250px;
+    height: 200px;
+}
+.adRight {
+	width: 52%;
+	height: 220px;
+	float: right;
+}
+.adTitle {
+	position: relative;
+	width: 100%;
+	height: 80px;
+	overflow: hidden;
+}
+.adTitle span {
+	margin-right: 24px;
+	height: 80px;
+	float: left;
+}
+.adTitle em {
+	position: absolute;
+    left: 11px;
+    top: 18px;
+    font-size: 20px;
+}
+.adTitle p {
+    margin-left: 56px;
+    height: 80px;
+    font-size: 28px;
+    color: #333;
+    overflow: hidden;  
+}
+.adUser {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 24px;
+}
+.adUser span {
+	float: left;
+	margin-right: 28px;
+	font-size: 24px;
+	color: #666;
+}
+.adUser img {
+	position: relative;
+	top: 4px;
+}
+
+.adOther {
+	width: 100%;
+	overflow: hidden;
+	font-size: 24px;
+	color: #666;
+	margin-top: 24px;
+}
+.adOther span {
+	width: 33%;
+	float: left;
+}
+.recommend {
+	color: #ffb50c;
+}

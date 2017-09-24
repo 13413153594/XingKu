@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="css/common.css" type="text/css" rel="stylesheet">
+        <link href="css/index.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/signUp.css">
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/style.js"></script>
+        <script src="js/signUp.js"></script>
+        <script src="js/imgUp.js"></script>
+        
+    </head>
+    <body>
+    	<!--header 上传报名选手-->
+        <div id="nav-header">
+            <div class="header-content">
+                <div class="prev fl"><a href="publish.html"><img src="images/zcPersonal/2x/return@2x.png" alt=""></a></div>
+                <div class="font fl" ><span>上传报名选手</span></div>
+            </div>
+        </div>
+        <div class="active">
+	        <div class="theme">
+	        	<span>疯抢618活动</span>
+	        </div>
+	        <div class="bar"></div>
+	        <div class="personalData">
+	        	<span>个人资料</span>
+	        </div>
+	        <div class="bar"></div>
+        </div>
+        <!-- 内容 -->
+        <div class="Container">
+        	<div class="Container-content">
+        		<ul class="datas">
+        			<li id="headPortrait">
+    					<span class="fl">头像</span>
+    					<span class="right headSelect"></span>
+					</li>
+					<li id="nickname">
+    					<span class="fl">昵称</span>
+    					<input type="text" placeholder="请输入昵称" class="fr">
+                        <!-- <a href="bm_nickname.html"><span class="right nickname">昵称</span></a> -->
+					</li>
+					<li id="sex">
+    					<span class="fl">性别</span>
+    					<!-- <input type="text" placeholder="请输入性别" class="fr"> -->
+                        <span class="right sexSelect">性别</span>
+					</li>
+				</ul>
+				<div class="personalIntroduct">
+					<p class="introductTips">个人介绍</p>
+					<textarea name="" id="introduct" cols="30" rows="5" onblur="if(this.innerHTML==''){this.innerHTML='请添加个人描述，不要超过30个字！';this.style.color='#666'}" style="COLOR: #666" onfocus="if(this.innerHTML=='请添加个人描述，不要超过30个字！'){this.innerHTML='';this.style.color='#666'}">请添加个人描述，不要超过30个字！</textarea>
+				</div>
+                <!-- 上传照片 -->
+				<!-- <div class="uploadPic">
+                    <p class="uploadPicTip">上传照片</p>
+                    <ul class="pic">
+                        <li><img src="images/addData/2x/img@2x.png" alt="">
+                            <input type="file" name="file" id="file" class="file" value="" accept="image/jpg,image/jpeg,image/png,image/bmp" multiple />
+                        </li>
+                    </ul>
+                </div> -->
+                <div class="img-box full">
+                    <section class=" img-section">
+                        <p class="uploadPicTip">上传照片</p>
+                        <!-- <p class="up-p">作品图片：<span class="up-span">最多可以上传5张图片，马上上传</span></p> -->
+                        <div class="z_photo upimg-div clear" >
+                            <section class="z_file fl">
+                                <img src="images/addData/2x/img@2x.png" class="add-img">
+                                <input type="file" name="file" id="file" class="file" value="" accept="image/jpg,image/jpeg,image/png,image/bmp" multiple />
+                            </section>
+                        </div>
+                    </section>
+                </div>
+				<div class="uploadURL">
+					<p class="uploadPicTip">上传视频链接</p>
+					<p class="URL">url:<input type="text" id="oCam"></p>
+				</div>
+    			<a href="publish.html" id="insertBtn"><input type="button" class="btn" id="publishBtn" value="保存"></a>
+        	</div>
+        </div>
+        <aside class="mask works-mask">
+            <div class="mask-content">
+                <p class="del-p ">您确定要删除作品图片吗？</p>
+                <p class="check-p"><span class="del-com wsdel-ok">确定</span><span class="wsdel-no">取消</span></p>
+            </div>
+        </aside>
+
+        <!-- 头像 -->
+        <div class="headPortrait"></div>
+        <ul class="headPortraitType">
+            <li class="cameraShooting">相机拍照</li>
+            <li class="mobilePhoto">从手机相册选择</li>
+        </ul>
+        <!-- 性别 -->
+        <div class="sex"></div>
+        <ul class="sexType">
+            <li class="male sexclick">男</li>
+            <li class="female sexclick">女</li>
+        </ul>
+    </body>
+</html>

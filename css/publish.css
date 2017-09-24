@@ -1,0 +1,304 @@
+body {
+    font-family: 'pingfang sc-regular';
+}
+::-webkit-input-placeholder {
+    color: #ccc;
+    text-align: left;
+    letter-spacing: 0px;
+}
+#publishContainer {
+	margin-bottom: 98px;
+}
+.Container {
+	width: 100%;
+}
+.Container-content {
+    width: 100%;
+}
+/* 上传活动封面 */
+.camera {
+    width: 100%;
+    height: 498px;
+	padding-top: 88px;
+	text-align: center;
+	background: #f3f3f3;
+	overflow: hidden;
+}
+.cameraPhoto {
+	margin-top: 50px;
+}
+.camera img {
+	display: block;
+	margin: 0px auto;
+}
+.camera p {
+    font-size: 36px;
+    color: #666;
+    padding: 48px 0px;
+}
+/* 资料 */
+.data,.signup,.uploadPlayer,.DataPic {
+	width: 100%;
+}
+.pull-down {
+    float: right;
+}
+.pull-down img {
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.uploadPlayer {
+    display: none;
+}
+.uploadPlayerShow {
+    display: block;
+}
+.dataList,.signupList,.DataPic p {
+	padding: 0px 24px;
+}
+.dataList li,.signupList li,.DataPic p {
+	height: 96px;
+	font-size: 30px;
+	color: #999;
+	border-bottom: 1px solid #e5e5e5;
+	margin-left: 46px;
+}
+.detailsText {
+    width: 100%;
+}
+.uploadActVideo {
+    border-bottom: none;
+}
+.dataList .uploadActVideo {
+    height: 130px;
+}
+.dataList .uploadActVideo input {
+    width: 100%;
+    display: block;
+    text-align: left;
+    float: left;
+}
+#actDetailIntroduct {
+    border: 1px solid #ccc;
+    outline: none;
+    resize: none;
+    font-size: 24px;
+    width: 100%;
+    height: 160px;
+}
+.dataList li>img,.signupList li>img,.DataPic img {
+	position: relative;
+    top: 34px;
+    left: -44px;
+}
+.signupList li img:nth-of-type(2) {
+	float: right;
+	position: relative;
+    top: 20px;
+} 
+.dataList input {
+	width: 378px;
+    font-size: 30px;
+    text-align: right;
+    float: right;
+}
+#details {
+	height: auto;
+	padding-bottom: 20px;
+}
+#details span {
+	display: block;
+	margin-bottom: 20px;
+}
+/* #details textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 36px;
+} */
+#address {
+	line-height: 96px;
+}
+#address input {
+	margin-top: 20px;
+}
+.add {
+    position: relative;
+    top: -10px;
+    font-size: 36px;
+}
+.inputUrl {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+}
+/* 空白条 */
+.bar {
+	background: #f3f3f3;
+	width: 100%;
+	height: 20px;
+}
+/* 上传资料、图片 */
+.allPlayer {
+	width: 100%;
+    padding-left: 40px;
+}
+.playerList {
+	padding: 32px 24px 32px 24px;
+	overflow: hidden;
+}
+.playerList li {
+	float: left;
+	margin-left: 22px;
+	margin-bottom: 48px;
+}
+.playerList li p {
+	font-size: 30px;
+	color: #999;
+	margin-top: 24px;
+}
+.playerList p span:nth-of-type(2) {
+	display: inline-block;
+    width: 70px;
+    height: 30px;
+    background: #4fbfff;
+    border-radius: 8px;
+    position: relative;
+    left: 14px;
+    top: 8px;
+}
+.playerList p span:nth-of-type(2) img {
+	display: inline-block;
+	position: relative;
+    top: -8px;
+    left: 6px;
+}
+.playerList p span:nth-of-type(2) em {
+	position: relative;
+    top: -8px;
+    left: 10px;
+    font-size: 28px;
+    color: #fff;
+}
+.allPlayer .playerList p .bgDes {
+	background: #ff4f85;
+}
+/* 注意 */
+.careful {
+	padding: 0px 24px;
+    font-size: 24px;
+    color: #ccc;
+    margin-top: 16px;
+}
+.careful p {
+	margin-bottom: 10px;
+}
+/* 发布按钮 */
+#publishBtn {
+	margin-bottom: 160px;
+}
+
+
+/* 活动类型 */
+.activeList li {
+    float: left;
+    height: 84px;
+    line-height: 84px;
+    margin-right: 63px;
+}
+.activeList li:nth-of-type(5) {
+    margin-right: 0px;
+}
+.select {
+    text-align: center;
+    color: #666;
+    font-size: 36px;
+    border-bottom: 1px solid #e5e5e5;
+    height: 72px;
+    line-height: 72px;
+}
+.select .icon-gou1,.bmType .icon-gou1 {
+    color: #ccc;
+    font-size: 50px;
+    float: right;
+}
+/* 报名信息 */
+.bm,.active,.vote {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;
+}
+/* 报名信息显示 */
+.bmShow,.activeShow,.voteShow {
+    display: block;
+}
+.bmList,.activeList,.voteList {
+    background: #fff;
+    padding: 0px 24px;
+    text-align: center;
+    font-size: 34px;
+    color: #333;
+    position: fixed;
+    top: 50%;
+    margin-top: -78px;
+    width: 100%;
+    z-index: 1;
+    display: none;
+}
+.bmListShow,.activeListShow,.voteListShow {
+    display: block;
+}
+.bmList li,.voteList li {
+    padding: 20px 0px;
+    border-top: 1px solid #ccc;
+}
+.bmList li a,.voteList li a {
+    color: #333;
+}
+.bmList .bmType,.voteList .voteType {
+    padding: 10px 0px;
+    border-top: none;
+    color: #666;
+    font-size: 36px;
+}
+/* 上传互活动封面 */
+.headPortrait {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;
+}
+.headPortraitShow {
+    display: block;
+}
+.headPortraitType {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    padding: 0px 24px;
+    z-index: 2;
+}
+.headPortraitType {
+    bottom: 0px;
+    display: none;
+}
+.headPortraitTypeShow {
+    display: block;
+}
+.headPortraitType li {
+    padding: 15px 0px;
+    text-align: center;
+    color: #999;
+    border-bottom: 1px solid #ccc;
+}
+.headPortraitType .mobilePhoto {
+    border-bottom: none;
+}

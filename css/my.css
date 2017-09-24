@@ -1,0 +1,240 @@
+body {
+    font-size: 36px;
+    font-family: 'pingfang sc-regular';
+}
+/* 头部内容 */
+.header {
+	width: 100%;
+	height: 428px;
+	background: url('../images/my/2x/mine_bg@2x.png') no-repeat;
+	background-size: 100% 428px;
+	overflow: hidden;
+}
+.header_content {
+	//background: skyblue;
+}
+.head_portrait {
+	display: inline-block;
+	margin-top: 134px;
+	margin-left: 44px;
+}
+
+.name {
+	margin-top: 10px;
+	margin-left: 62px;
+	overflow: hidden;
+	position: relative;
+}
+.name .username {
+	font-size: 36px;
+	color: #fff;
+	float: left;
+}
+.name .certified,.name .sign,.name .signedIn {
+	width: 126px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 24px;
+	color: #ffcb18;
+	text-align: center;
+	float: left;
+	margin-left: 87px;
+	border: 1px solid #ffcb18;
+	border-radius: 20px; 
+	margin-top: 12px;
+}
+.name .sign,.name .signedIn {
+	width: 112px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #fff;
+    color: #fff;
+    float: left;
+}
+.name .signedIn {
+	position: absolute;
+	right: 60px;
+	display: none;
+}
+.name .signedInShow {
+	display: block;
+}
+.name .certified img,.name .sign img {
+	float: left;
+	margin-left: 15px;
+    margin-top: 4px;
+}
+.name .sign img {
+	margin-top: 5px;
+}
+
+/* 内容 */
+.Container {
+	width: 100%;
+    height: auto;
+    background: #fafafa;
+    overflow: hidden;
+    padding-bottom: 140px;
+}
+.Container-content {
+	width: 100%;
+	padding-top: 136px;
+}
+.myNav {
+	width: 90%;
+	height: 160px;
+    position: absolute;
+    top: 374px;
+    left: 50%;
+    margin-left: -45%;
+    box-shadow:0px 10px 20px #e5e5e5;
+}
+.myNavList {
+	width: 100%;
+	padding: 0px 24px;
+    height: 160px;
+    line-height: 160px;
+    background: #fff;
+    overflow: hidden;
+}
+.myNavList li {
+	width: 25%;
+	text-align: center;
+	float: left;
+	position: relative;
+}
+.myNavList li img {
+	margin: 0px auto;
+	margin-top: 20px;
+}
+.myNavList li span {
+	font-size: 26px;
+    color: #666;
+    position: absolute;
+    top: 50px;
+    left: 37px;
+}
+.myParticipate {
+	float: left;
+}
+.release {
+	float: right;
+}
+.myParticipate,.release {
+	width: 50%;
+	text-align: center;
+}
+.myParticipate em,.release em {
+	font-size: 60px;
+	color: #b924ff;
+	font-weight: bold;
+}
+.myParticipate span,.release span {
+	font-size: 30px;
+	color: #666;
+	margin-left: 24px;
+	position: relative;
+    top: -10px;
+}
+
+/* 资料 */
+.data {
+	width: 100%;
+	background: #fff;
+}
+.dataList {
+
+}
+.dataList li {
+	width: 100%;
+	height: 96px;
+	padding: 0px 24px;
+	line-height: 96px;
+}
+.dataList li img {
+	float: left;
+	margin-top: 32px;
+}
+.dataList li span {
+	font-size: 30px;
+	color: #666;
+	float: left;
+	margin-left: 26px;
+}
+.dataList .bar {
+	width: 100%;
+	height: 24px;
+	background: #fafafa;
+}
+/* 更换个人主页背景 */
+.backgroundBG {
+	overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none; 
+}
+.backgroundBGShow {
+	display: block;
+}
+.changeBackground {
+	background: #fff;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 34px;
+    color: #333;
+    position: fixed;
+    top: 50%;
+    margin-top: -38px;
+    width: 100%;
+    z-index: 1;
+     display: none; 
+}
+.changeBackgroundShow {
+	display: block;
+}
+/* 更换背景 */
+.headPortrait {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;
+}
+.headPortraitShow {
+    display: block;
+}
+.headPortraitType {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    padding: 0px 24px;
+    z-index: 2;
+}
+.headPortraitType {
+    bottom: 0px;
+    display: none;
+}
+.headPortraitTypeShow {
+    display: block;
+}
+.headPortraitType li {
+    padding: 15px 0px;
+    text-align: center;
+    color: #999;
+    border-bottom: 1px solid #ccc;
+}
+.headPortraitType {
+    border-bottom: none;
+}
+
+
+
+

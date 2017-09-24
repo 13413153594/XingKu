@@ -1,0 +1,176 @@
+/* 企业认证内容 */
+::-webkit-input-placeholder {
+    color: #ccc;
+    text-align: right;
+}
+.certificateContainer {
+    padding-top: 92px;
+}
+.certificateList,.upload,.attention {
+    padding: 0px 24px;
+}
+.status {
+	overflow: hidden;
+    padding: 0px 24px;
+    height: 76px;
+    line-height: 76px;
+}
+.status span:nth-of-type(2) {
+	font-size: 24px;
+	color: #b924ff;
+    font-family: 'pingfang sc-regular';
+}
+.certificateList li {
+    height: 76px;
+    line-height: 76px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #666;
+}
+.certificateList li:nth-of-type(5) {
+    border-bottom: none;
+}
+.right {
+    float: right;
+    font-size: 32px;
+    color: #666;
+    display: inline-block;
+    line-height: 74px;
+    text-align: right;
+    font-family: 'pingfang sc-regular';
+}
+.left {
+    float: left;
+    font-size: 30px;
+    color: #aaa;
+    font-family: 'pingfang sc-regular';
+}
+.bar1,.bar2 {
+    width: 100%;
+    height: 24px;
+    background: #fafafa;
+}
+.bar2 {
+    padding-top: 0px;
+}
+.upload {
+	overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+    height: 76px;
+    line-height: 76px;
+}
+.upload span {
+	font-size: 32px;
+	color: #666;
+}
+
+.IDphoto {
+	margin-top: 24px;
+}
+.idPhoto {
+	width: 256px;
+	height: 162px;
+	overflow: hidden;
+}
+.IDphoto ul {
+	overflow: hidden;
+	width: 592px;
+    margin: 0px auto;
+    text-align: center;
+}
+.IDphoto ul li {
+	float: left;
+}
+.IDphoto ul li:nth-of-type(1),.IDphoto ul li:nth-of-type(3) {
+	margin-right: 80px;
+}
+.IDphoto ul li p {
+	font-size: 22px;
+	color: #aaa;
+	margin-top: 14px;
+	margin-bottom: 24px;
+}
+
+.attention ol li {
+	font-size: 22px;
+	color: #ccc;
+	margin-bottom: 10px;
+}
+.Container .completeBtn {
+	margin-top: 34px;
+}
+
+/* 从手机相册选择 */
+.select {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;
+}
+.select1Show,.select2Show,.select3Show {
+    display: block;
+}
+
+.selectPhoto {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    padding: 0px 24px;
+    z-index: 2;
+    bottom: 0px;
+    display: none;
+}
+.selectPhoto1Show,.selectPhoto2Show,.selectPhoto3Show {
+    display: block;
+}
+.selectPhoto li {
+    padding: 15px 0px;
+    text-align: center;
+    color: #999;
+    border-bottom: 1px solid #ccc;
+}
+.selectPhoto .mobilePhoto {
+    border-bottom: none;
+}
+/* 跳过认证 */
+.skipBg {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 1348px;
+    background: rgba(0,0,0,0.6);
+    overflow: hidden;
+    z-index: 11;
+    display: none;
+}
+.skipBgShow {
+    display: block;
+}
+.skipList {
+    position: fixed;
+    font-size: 30px;
+    width: 100%;
+    top: 50%;
+    background: #fff;
+    padding: 0px 24px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 11;
+    display: none;
+}
+.skipListShow {
+    display: block;
+}
+.skipList li {
+    padding: 0px 24px;
+    height: 86px;
+    line-height: 86px;
+    text-align: center;
+    color: #666;
+    font-size: 36px;
+    border-bottom: 1px solid #e5e5e5;
+}
+

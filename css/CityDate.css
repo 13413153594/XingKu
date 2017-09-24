@@ -1,0 +1,42 @@
+#yearwrapper ul li{
+   color: #666 !important; height: 65px;
+   line-height: 64px;
+   padding: 26px;
+}
+#monthwrapper ul li{
+   color: #666 !important; height: 60px;
+   line-height: 64px;
+   padding: 26px;
+}
+#daywrapper ul li{
+   color: #666 !important; height: 63px;
+   line-height: 64px;
+   padding: 26px;
+}
+#datemark{
+   top:97px
+}
+
+.icon-gou1,#dateconfirm {
+	color: #666 !important;
+	font-size: 36px !important;
+}
+.picker .picker-panel .wheel-wrapper .wheel:nth-child(1) .wheel-scroll .wheel-item{
+	color: #666 !important;
+	height: 64px;
+
+}
+.picker .picker-panel .wheel-wrapper .wheel:nth-child(2) .wheel-scroll .wheel-item{
+	color: #666 !important;
+	height: 64px;
+}
+.picker .picker-panel .wheel-wrapper .wheel:nth-child(3) .wheel-scroll .wheel-item{
+	color: #666 !important;
+	height: 64px;
+}
+
+.lcalendar_cancel {
+	position: relative;
+    left: 50%;
+    margin-left: -17%;
+}

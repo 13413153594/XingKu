@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+		<link rel="stylesheet" href="css/lCalendar.css">
+		<link rel="stylesheet" href="css/CityDate.css">
+
+        <link href="css/picker.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/activityAdv.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/publish.css">
+    	<link rel="stylesheet" href="iconfont/iconfont.css">
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/activityAdv.js"></script>
+        <script src="js/style.js"></script>
+        <script src="js/publish.js"></script>
+        <script src="js/upload_profile_photos.js"></script>
+    </head>
+    <body>
+    	<!--header开头 发布-->
+		<div id="nav-header">
+		  <div class="header-content">
+		      <div class="font" style="text-align:center;"><span>发布</span></div>
+		  </div>
+		</div>  
+		<!-- 上传照片 -->
+		<div class="camera" id="preview">
+			
+			<div class="cameraPhoto"><img src="images/publish/2x/camera@2x.png" alt=""></div>
+			<p>上传互活动封面</p>
+		</div>
+    	<!--发布内容-->
+    	<div class="Container" id="publishContainer">
+    		<div class="Container-content">
+    			<!-- 资料 -->
+    			<div id="datePlugin"></div>
+    			<div class="data">
+    				<ul class="dataList">
+    					<li>
+	    					<img src="images/publish/2x/name@2x.png" alt="">
+	    					<span>活动名称</span>
+	    					<input type="text">
+    					</li>
+    					<li >
+	    					<img src="images/publish/2x/date@2x.png" alt="">
+	    					<span>活动日期</span>
+	    					<div style="float:right;color:#ccc;font-size:26px;">
+	    						<span id="starTime">开始时间</span>
+	    						<em>-</em>
+    							<span id="endTime">结束时间</span> 
+	    					</div>
+	    					<div class="pull-down" id="dateclick"><!-- <img src="images/publish/2x/pull-down@2x.png" alt=""  id="img" > -->
+	    					</div>
+    					</li>
+    					<li>
+	    					<img src="images/publish/2x/nop@2x.png" alt="">
+	    					<span>活动人数</span>
+	    					<div class="pull-down" id="activeNum"><!-- <img src="images/publish/2x/pull-down@2x.png" alt="" > -->
+	    					<input type="text">
+	    					</div>
+    					</li>
+    					<li>
+	    					<img src="images/publish/2x/add@2x.png" alt="">
+	    					<span>活动地址</span>
+	    					<div class="pull-down" id="picker5"><img src="images/publish/2x/pull-down@2x.png" alt="" class="areaSelect">
+	    					</div>
+    					</li>
+    					<li id="address">
+	    					<span>详细地址</span>
+	    					<input type="text">
+    					</li>
+    					<li id="activeType">
+	    					<img src="images/publish/2x/type@2x.png" alt="">
+	    					<span>活动类型</span>
+	    					<div class="pull-down activeType"><img src="images/publish/2x/pull-down@2x.png" alt="" >
+	    					</div>
+    					</li>
+    					<li>
+	    					<img src="images/publish/2x/uploadImg.png" alt="">
+	    					<span>上传活动图片</span>
+	    					<!-- <div class="pull-down"><img src="images/publish/2x/pull-down@2x.png" alt="" >
+	    					</div> -->
+    					</li>
+    					<li>
+	    					<img src="images/publish/2x/phone@2x.png" alt="">
+	    					<span>联系电话</span>
+	    					<input type="text">
+    					</li>
+    					<li class="uploadActVideo" id="uploadMovie">
+	    					<img src="images/publish/2x/uploading@2x.png" alt="">
+	    					<span>上传活动视频</span>
+	    					<em class="fr add">+</em>
+	    					<input type="text" placeholder="请输入视频浏览地址" class="inputUrl">
+    					</li>
+    					<li id="details">
+	    					<img src="images/publish/2x/introduce@2x.png" alt="">
+	    					<span>活动详情介绍</span>
+	    					<textarea name="" id="actDetailIntroduct"></textarea>
+    					</li>
+    				</ul>
+    				<!-- 空白条 -->
+    				<div class="bar"></div>
+    				<!-- 报名 -->
+    				<div class="signup">
+    					<ul class="signupList">
+    						<li id="signup">
+		    					<img src="images/publish/2x/apply@2x.png" alt="">
+		    					<span>报名方式</span>
+		    					<div class="pull-down"><img src="images/publish/2x/pull-down@2x.png" alt=""></div>
+	    					</li>
+	    					<li  id="vote">
+		    					<img src="images/publish/2x/vote@2x.png" alt="">
+		    					<span>投票方式</span>
+		    					<div class="pull-down"><img src="images/publish/2x/pull-down@2x.png" alt=""></div>
+	    					</li>
+	    					<li>
+		    					<img src="images/publish/2x/start-time@2x.png" alt="">
+			    					<span>报名开始时间</span>
+		    					<div style="float:right;color:#ccc;font-size:26px;">
+			    					<span id="bmStartTime">开始时间</span>
+		    						<em>-</em>
+    								<span id="bmEndTime">结束时间</span>
+	    						</div>
+	    					</li>
+	    					<li>
+		    					<img src="images/publish/2x/polling-hours@2x.png" alt="">
+		    					<span>投票开始时间</span>
+		    					<div style="float:right;color:#ccc;font-size:26px;">
+			    					<span id="voteStartTime">开始时间</span>
+		    						<em>-</em>
+	    							<span id="voteEndTime">结束时间</span> 
+    							</div>
+	    					</li>
+    					</ul>
+    				</div>
+    				<!-- 空白条 -->
+    				<div class="bar"></div>
+    				<!-- 上传资料、图片 -->
+    				<div class="uploadPlayer">
+    					<div class="DataPic">
+    						<p><img src="images/publish/2x/apply@2x.png" alt="">
+    							<span>请上传选手资料、图片</span></p>
+    					</div>
+    					<div style="margin-top:24px;margin-left:40px;">
+    						<a href="Upload_entries.html"><img src="images/addData/2x/img@2x.png"></a>
+    					</div>
+    				</div>
+    				<!-- 注意 -->
+    				<div class="careful">
+    					<p>注:</p>
+    					<p>报名方式为默认选择，默认选择为有报名窗口。选择不可报名则需要管理者自己上传选手图片、资料并且没有报名窗口。</p>
+    					<p>投票方式为默认选择，默认投票为用户可每小时一票。不可投票为用户每人一票。</p>
+    				</div>
+    			</div>
+    			<a href="releaseSuccess.html"><input type="button" class="btn" id="publishBtn" value="发布"></a>
+    		</div>
+    	</div>
+    	<!--底部导航栏-->
+    	<div class="footer">
+			<ul class="footer-content">
+				<a href="main.html" class="homeclick"><li>
+					<span class="homeclassify"><img src="images/main/2x/homeclassify@2x.png" alt="" class="home"></span>
+					<span class="bottomFont">首页</span>
+				</li></a>
+				<a href="classification.html" class="categoryclick"><li>
+					<span class="classify_default"><img src="images/main/2x/classify_default@2x.png" alt="" class="classify"></span>
+					<span class="bottomFont">分类</span>
+				</li></a>
+				<a href="javascript:void(0)" class="iconDes issueclick"><li>
+					<span class="issue_default"><img src="images/main/2x/issue_selected@2x.png" alt="" class="issue"></span>
+					<span class="bottomFont">发布</span>
+				</li></a>
+				<a href="my.html" class="selfclick"><li>
+					<span class="me_default"><img src="images/main/2x/me_default@2x.png" alt="" class="me"></span>
+					<span class="bottomFont">我的</span>
+				</li></a>
+			</ul>
+		</div>
+		
+		<!-- 上传互活动封面 -->
+		<div class="headPortrait"></div>
+		<ul class="headPortraitType">
+			<li class="cameraShooting">相机拍照</li>
+			<li class="mobilePhoto"><input type="file" name="imageUpload" readonly="readonly" style="opacity: 0;position:absolute;margin-left: -194px;"/>从手机相册选择</div></li>
+		</ul>
+
+		<!-- 活动类型 -->
+		<div class="active"></div> 
+		<div class="activeList">
+			<p class="select">选择类型<!-- <i class="iconfont icon-gou1" id="gouSelectType"></i> --></p>
+			<ul class="selectActive">
+				<li class="variety">综艺</li>
+				<li class="film">影视</li>
+				<li class="music">音乐</li>
+				<li class="event">赛事</li>
+				<li class="other">其他</li>
+			</ul>
+		</div>
+
+		<!-- 报名方式 -->
+		<div class="bm"></div> 
+		<ul class="bmList">
+			<li class="bmType">选择报名方式<!-- <i class="iconfont icon-gou1" id="gouSelectZC"></i> --></li>
+			<li class="bmBan"><a href="javascript:void(0)">不可报名</a></li>
+			<li class="bmDefault"><a href="javascript:void(0)">默认报名</a></li>
+		</ul>
+
+		<!-- 投票方式 -->
+		<div class="vote"></div> 
+		<ul class="voteList">
+			<li class="voteType">选择投票方式<!-- <i class="iconfont icon-gou1" id="gouSelectZC"></i> --></li>
+			<li class="defaultSelect"><a href="javascript:void(0)">默认选择</a></li>
+			<li class="notarialVote"><a href="javascript:void(0)">公证投票</a></li>
+		</ul>
+    </body>
+</html>
+<script src="scripts/picker.min.js"></script>
+<script type="text/javascript" src="city/city.js"></script>
+<script type="text/javascript" src="city/index.js"></script>
+<script src="js/lCalendar.js"></script>
+<script>
+    var calendar = new lCalendar();
+    calendar.init({
+        'trigger': '#dateclick',
+        'type': 'date'
+    }); 
+    var calendar = new lCalendar();
+    calendar.init({
+        'trigger': '#starTime',
+        'type': 'date'
+    }); 
+    
+    var calendar = new lCalendar();
+    calendar.init({
+        'trigger': '#endTime',
+        'type': 'date'
+    });  
+    var calendar = new lCalendar();
+    calendar.init({
+        'trigger': '#bmStartTime',
+        'type': 'date'
+    }); 
+    
+    var calendar = new lCalendar();
+    calendar.init({
+        'trigger': '#bmEndTime',
+        'type': 'date'
+    }); 
+    var calendar = new lCalendar();
+    calendar.init({
+        'trigger': '#voteStartTime',
+        'type': 'date'
+    }); 
+    
+    var calendar = new lCalendar();
+    calendar.init({
+        'trigger': '#voteEndTime',
+        'type': 'date'
+    }); 
+</script>

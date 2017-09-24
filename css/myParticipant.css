@@ -1,0 +1,110 @@
+body {
+    font-size: 36px;
+    font-family: 'pingfang sc-regular';
+}
+
+.Container {
+	width: 100%;
+}
+.Container-content {
+	width: 100%;
+	padding-top: 70px;
+}
+/* 导航条 */
+.nav {
+	width: 100%;
+}
+.navList {
+	width: 100%;
+	overflow: hidden;
+}
+.navList li {
+	height: 86px;
+	line-height: 86px;
+	width: 45%;
+	margin-right: 10%;
+	font-size: 36px;
+	color: #666;
+	float: left;
+	text-align: right;
+	position: relative;
+}
+.navList .expired {
+	margin-right: 0%;
+	text-align: left;
+}
+.navList .des {
+	color: #b924ff;
+}
+.jinxing {
+	display: block;
+    background: #b924ff;
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    left: 210px;
+    top: 70px;
+}
+.jinxingHide {
+	display: none;
+}
+.guoqi {
+	display: block;
+    background: #b924ff;
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    right: 210px;
+    top: 70px;
+    display: none;
+}
+.guoqiShow {
+	display: block;
+}
+
+.activity {
+	width: 100%;
+	margin-top: 20px;
+	display: none;
+}
+.yincang {
+	display: none;
+}
+.activityShow {
+	display: block;
+}
+.activityList {
+	width: 100%;
+}
+.activityList li {
+    width: 100%;
+    height: 300px;
+    background: #ccf8fb;
+    margin-bottom: 88px;
+    position: relative;
+}
+.num {
+ 	width: 90%;
+    position: absolute;
+    left: 50%;
+    margin-left: -45%;
+    top: 246px;
+}
+.numList {
+	width: 100%;
+    height: 100px;
+    background: #fff;
+    border-bottom: 1px solid pink;
+    overflow: hidden;
+}
+.voteNum,.browseNum {
+	width: 50%;
+	text-align: center;
+	color: #666;
+	font-size: 32px;
+	float: left;
+}
+.voteNum span,.browseNum span,.voteNum em,.browseNum em {
+	display: block;
+}
+

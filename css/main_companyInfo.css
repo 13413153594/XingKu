@@ -1,0 +1,91 @@
+body {
+    font-size: 36px;
+    font-family: 'pingfang sc-regular';
+}
+.Container {
+	width: 100%;
+	padding-top: 88px;
+	background: #fafafa;
+	padding-bottom: 100px;
+}
+.Container-content {
+	width: 100%;
+}
+.banner {
+	width: 100%;
+	height: 428px;
+	background: url('../images/my/2x/mine_bg@2x.png') no-repeat;
+	background-size: 100% 428px;
+	overflow: hidden;
+}
+.head_portrait {
+	display: inline-block;
+	margin-top: 170px;
+	margin-left: 44px;
+}
+
+.name {
+	margin-top: 10px;
+	margin-left: 62px;
+	overflow: hidden;
+	position: relative;
+}
+.name .username {
+	font-size: 36px;
+	color: #fff;
+	float: left;
+}
+.name .certified {
+	width: 126px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 24px;
+	color: #ffcb18;
+	text-align: center;
+	float: left;
+	margin-left: 87px;
+	border: 1px solid #ffcb18;
+	border-radius: 20px; 
+	margin-top: 12px;
+}
+.name .certified img {
+	float: left;
+	margin-left: 15px;
+    margin-top: 4px;
+}
+.dataList li {
+	width: 100%;
+	height: 96px;
+	padding: 0px 24px;
+	line-height: 96px;
+	background: #fff;
+}
+.dataList .signature {
+	height: auto;
+    line-height: 50px;
+    overflow: hidden;
+    padding: 24px 24px;
+}
+.dataList .signature em {
+	float: left;
+	width: 26%;
+}
+.dataList .signature p {
+	float: left;
+	width: 74%;
+	font-size: 30px;
+	color: #bdbdbd;
+}
+.dataList li em {
+	font-size: 30px;
+	color: #666;
+}
+.dataList li span {
+	font-size: 30px;
+	color: #bdbdbd;
+}
+.dataList .bar {
+	width: 100%;
+	height: 24px;
+	background: #fafafa;
+}

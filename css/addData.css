@@ -1,0 +1,51 @@
+body {
+    font-family: 'pingfang sc-regular';
+}
+::-webkit-input-placeholder {
+    color: #ccc;
+    text-align: right;
+}
+
+#dataContainer {
+	padding-top: 88px;
+}
+.datas {
+	padding: 0px 24px;
+}
+em {
+	font-size: 26px;
+}
+.datas li {
+	width: 100%;
+	height: 96px;
+	line-height: 96px;
+	font-size: 36px;
+	color: #666;
+	border-bottom: 1px solid #e5e5e5;
+}
+.datas li input {
+	font-size: 36px;
+    margin-left: 70px;
+    text-align: right;
+}
+.datas li:nth-of-type(3) {
+	height: 140px;
+    line-height: 64px;
+}
+#oCam {
+	margin-left: 10px;
+	text-align: left;
+}
+.add {
+	padding: 0px 24px;
+}
+.add img {
+	margin-top: 90px;
+	margin-bottom: 428px;
+}
+#insertBtn {
+	display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}

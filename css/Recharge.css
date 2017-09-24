@@ -1,0 +1,70 @@
+body {
+    font-family: 'pingfang sc-regular';
+}
+.Container {
+	width: 100%;
+	padding-top: 88px;
+}
+.Container-content {
+	padding: 0px 24px;
+}
+.title {
+	padding: 24px 0px;
+	font-size: 34px;
+	color: #666;
+}
+.price {
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 42px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.price li {
+	width: 49%;
+    height: 86px;
+    line-height: 86px;
+    background: #eee;
+    float: left;
+    margin-top: 16px;
+    text-align: center;
+	color: #666;
+}
+.price li:nth-of-type(even) {
+	margin-left: 2%;
+}
+.price li span {
+	font-size: 36px;
+}
+.pageType {
+	width: 100%;
+	margin-top: 26px;
+	overflow: hidden;
+}
+.pageType span {
+	font-size: 30px;
+	color: #666;
+	margin-left: 25px;
+}
+#rechargeBtn {
+	margin-top: 300px;
+}
+.price .des {
+	background: #ff9661;
+	color: #fff;
+}
+/* 提示信息框 */
+.succeed,.fail {
+    width: 230px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 24px;
+    border-radius: 2px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    bottom: 80px;
+    background: #7f7f7f;
+    display: none;
+}
+

@@ -1,0 +1,67 @@
+body {
+    font-family: 'pingfang sc-regular';
+}
+.Container {
+	width: 100%;
+	padding-top: 88px;
+}
+.Container-content {
+	width: 100%;
+}
+.pic {
+	width: 100%;
+	margin-top: 90px;
+	margin-bottom: 50px;
+	position: relative;
+}
+.pic img {
+	margin: 0px auto;
+}
+.num {
+	font-size: 114px;
+	color: #b924ff;
+	position: absolute;
+	left: 50%;
+    margin-left: -104px;
+    top: 150px;
+}
+.bar {
+	width: 100%;
+	height: 20px;
+	background: #fafafa;
+}
+.task {
+	height: 78px;
+	line-height: 78px;
+	padding: 0px 24px;
+	font-size: 32px;
+	color: #666;
+}
+.taskType {
+	width: 100%;
+}
+.taskList {
+	padding: 0px 24px;
+}
+.taskList li {
+	width: 100%;
+	height: 78px;
+	line-height: 78px;
+	font-size: 32px;
+	color: #666;
+	border-bottom: 1px solid #e5e5e5;
+}
+.taskList li:nth-of-type(5) {
+	border-bottom: none;
+}
+.circle {
+	position: relative;
+	width: 62px;
+	height: 62px;
+	line-height: 62px;
+	border-radius: 50%;
+	background: url('../images/wallet/circle.png') no-repeat;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+}

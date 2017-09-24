@@ -1,0 +1,39 @@
+body {
+    font-family: 'pingfang sc-regular';
+}
+
+.Container {
+	width: 100%;
+	padding-top: 88px;
+}
+.Container-content {
+	padding: 0px 24px;
+}
+.successList {
+	width: 100%;
+}
+.successList li {
+	width: 100%;
+	padding: 4px 0px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.successList li p {
+	width: 100%;
+	overflow: hidden;
+}
+.success {
+	font-size: 30px;
+	color: #333;
+}
+.rechargeNum {
+	font-size: 36px;
+	color: #ff9661;
+}
+.voteNum {
+	font-size: 36px;
+	color: #ff124a;
+}
+.time,.type {
+	font-size: 18px;
+	color: #ccc;
+}

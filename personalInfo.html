@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+		<link rel="stylesheet" href="css/lCalendar.css">
+		<link rel="stylesheet" href="css/CityDate.css">
+		
+        <link rel="stylesheet" href="css/style.css">
+    	<link rel="stylesheet" href="css/login.css">
+    	<link rel="stylesheet" href="css/header.css">
+    	<link rel="stylesheet" href="iconfont/iconfont.css">
+        <script src="js/jquery-1.11.1.min.js"></script> 
+        <script src="js/upload_profile_photos.js"></script>
+   		<script src="js/style.js"></script>
+        <script src="js/login.js"></script>
+    </head>
+    <body>
+    	<form enctype="multipart/form-data" action="" method="post">
+    	<!--header开头 个人注册-->
+		<div id="nav-header">
+		  <div class="header-content">
+		      <div class="prev fl"><a href="zcPersonal.html"><img src="images/zcPersonal/2x/return@2x.png" alt=""></a></div>
+		      <div class="font fl" ><span>个人信息</span></div>
+		  </div>
+		</div>
+		
+		<!--个人注册内容-->
+		<div class="Container infoContainer">
+		    <div class="Container-content">
+		        <div class="bar1"></div>
+				<ul class="infoList">
+					<li><span class="left">头像</span><span id="preview" class="right headSelect"></span></li>
+					<li>
+						<span class="left">昵称</span>
+						<!-- <a href="nickname.html"><span class="right nickname">昵称</span></a> -->
+						<input type="text" class="right nameInput" placeholder="请输入昵称">
+					</li>
+					<li><span class="left">性别</span><span class="right sexSelect">请选择性别</span></li>
+					<li><span class="left">生日</span><span id="birthday" class="right dateSelect">请选择日期</span></li>
+					<li><span class="left">地区</span><span class="right areaSelect" id="picker5">请选择地区</span>
+					</li>
+				</ul>
+				<div class="bar2"></div>
+				<div class="signature">
+					<span class="left">个性签名</span><!-- <a href="signature.html"><span class="right" id="signature">这个人很懒，没有个性签名</span></a> -->
+					<textarea name="" id="signature" onblur="if(this.innerHTML==''){this.innerHTML='这个人很懒，没有个性签名';this.style.color='#D1D1D1'}" style="COLOR: #d1d1d1" onfocus="if(this.innerHTML=='这个人很懒，没有个性签名'){this.innerHTML='';this.style.color='#000'}">这个人很懒，没有个性签名</textarea>
+				</div>
+
+		    <a href="main.html"><input type="button" class="btn" value="完成设置"></a>
+		    </div>
+		</div>
+		
+		<!-- 头像 -->
+		<div class="headPortrait"></div>
+		<ul class="headPortraitType">
+			<li class="cameraShooting">相机拍照</li>
+			<li class="mobilePhoto"><div><input type="file" name="imageUpload" readonly="readonly" style="opacity: 0;position:absolute;margin-left: -194px;"/>从手机相册选择</div></li>
+		</ul>
+		<!-- 性别 -->
+		<div class="sex"></div>
+		<ul class="sexType">
+			<li class="male sexclick">男</li>
+			<li class="female sexclick">女</li>
+		</ul>
+		</form>
+    </body>
+</html>
+<script src="scripts/picker.min.js"></script>
+<script type="text/javascript" src="city/city.js"></script>
+<script type="text/javascript" src="city/index.js"></script>
+<script src="js/lCalendar.js"></script>
+<script>
+    var calendar = new lCalendar();
+    calendar.init({
+        'trigger': '#birthday',
+        'type': 'date'
+    });  
+</script>

@@ -1,0 +1,211 @@
+body {
+    font-family: 'pingfang sc-regular';
+}
+::-webkit-input-placeholder {
+    color: #ccc;
+    text-align: right;
+    font-size: 30px;
+}
+
+.Container {
+	width: 100%;
+	margin-bottom: 176px;
+}
+.Container-content {
+	padding: 0px 24px;
+}
+.datas {
+	width: 100%;
+}
+em {
+	font-size: 26px;
+}
+/* .datas li {
+	width: 100%;
+	height: 96px;
+	line-height: 96px;
+	font-size: 36px;
+	color: #666;
+	border-bottom: 1px solid #e5e5e5;
+}
+.datas li input {
+	font-size: 36px;
+    margin-left: 70px;
+    text-align: right;
+}
+.datas li:nth-of-type(3) {
+	height: 140px;
+    line-height: 64px;
+} */
+
+.add {
+	padding: 0px 24px;
+}
+.add img {
+	margin-top: 90px;
+	margin-bottom: 428px;
+}
+#insertBtn {
+	display: block;
+    width: 100%;
+    position: fixed;
+    bottom: -28px;
+    background: #fff;
+}
+
+.active {
+	width: 100%;
+	padding-top: 88px;
+}
+.theme {
+	height: 96px;
+	line-height: 96px;
+	padding: 0px 24px;
+}
+.theme span {
+	font-size: 36px;
+	color: #666;
+}
+.personalData {
+	line-height: 76px;
+	height: 76px;
+	padding: 0px 24px;
+}
+.personalData span {
+	font-size: 30px;
+	color: #666;
+}
+.bar {
+	width: 100%;
+	height: 20px;
+	background: #fafafa;
+}
+/* 头像 */
+.datas li {
+	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 34px;
+	color: #666;
+}
+#headPortrait {
+	height: 134px;
+	line-height: 134px;
+}
+#headPortrait input {
+	height: 134px;
+	font-size: 34px;
+	text-align: center;
+}
+#nickname,#sex {
+	height: 99px;
+	line-height: 99px;
+}
+#nickname input,#sex input {
+	height: 99px;
+    font-size: 34px;
+    text-align: right;
+    background: transparent;
+    color: #bdbdbd;
+}
+
+.personalIntroduct {
+	width: 100%;
+}
+.introductTips {
+	width: 1005px;
+	padding: 24px 0px;
+	font-size: 36px;
+	color: #666;
+} 
+#introduct {
+	width: 100%;
+	border-color: #a3a3a3;
+	font-size: 30px;
+	color: #666;
+	resize: none;
+	background: #fbfbfb;
+	outline: none;
+	padding: 20px 20px;
+}
+
+.uploadPic {
+	width: 100%;
+	padding: 36px 0px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.uploadPicTip,.uploadPicTip {
+	font-size: 36px;
+	color: #666;
+	margin-bottom: 10px;
+} 
+.pic {
+	margin-top: 36px;
+	width: 100%;
+}
+.uploadURL {
+	width: 1005px;
+	padding: 32px 0px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.URL {
+	font-size: 30px;
+	color: #666;
+	margin-top: 10px;
+}
+#oCam {
+	margin-left: 10px;
+	text-align: left;
+	font-size: 30px;
+}
+.right {
+    border-radius: 50%;
+    float: right;
+    font-size: 30px;
+    color: #bdbdbd;
+    font-family: 'pingfang sc-regular';
+}
+.headSelect {
+    width: 90px;
+    height: 90px;
+    background: pink;
+    margin-top: 24px;
+    overflow: hidden;
+}
+
+/* 头像、性别、生日 */
+.sex,.headPortrait {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;
+}
+.sexShow,.headPortraitShow {
+    display: block;
+}
+.sexType,.headPortraitType {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    padding: 0px 24px;
+    z-index: 2;
+}
+.sexType,.headPortraitType {
+    bottom: 0px;
+    display: none;
+}
+.sexTypeShow,.headPortraitTypeShow {
+    display: block;
+}
+.sexType li,.headPortraitType li {
+    padding: 15px 0px;
+    text-align: center;
+    color: #999;
+    border-bottom: 1px solid #ccc;
+}
+.sexType .female,.date li:nth-of-type(3),.headPortraitType .mobilePhoto {
+    border-bottom: none;
+}
